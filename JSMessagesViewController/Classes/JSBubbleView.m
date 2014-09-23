@@ -230,7 +230,7 @@
                      constrainedToSize:CGSizeMake(maxWidth, maxHeight)];
     }
     
-    return CGSizeMake(roundf(stringSize.width), roundf(stringSize.height));
+    return CGSizeMake(roundf(stringSize.width), roundf(stringSize.height) + 3.f);
 }
 
 + (CGSize)neededSizeForText:(NSString *)text
